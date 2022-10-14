@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scatter plot</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.7.0/d3.min.js"></script>
+    <style>
+    #buttons {
+       position: absolute;
+       top: 10px; 
+       left: 1400; 
+       right: 10px; 
+       bottom: 10px;
+      } 
+    </style>
+    
+</head>
+<body style="padding: 20px">
+<script src="scatter.js"></script>
+<div id="wrapper"></div>
+<div id='asd' >
+    <button id="1" onclick="drawBar(null,'value', false)" type="button">Generate</button>
+    <button id="2" onclick="drawBar(null, 'value', true)" type="button">Clear</button>
+</div>
+</body>
+</html>
